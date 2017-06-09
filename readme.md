@@ -15,7 +15,7 @@
 
 #
 
-###Technology
+### Technology
 1. React || React Native
 2. express
 3. ruby 
