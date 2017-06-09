@@ -1,5 +1,6 @@
 # Informative website, based on news, tech, culture.
 
+
 # fix up project 2?
 ### Add features from post mvp list
 1. google maps
@@ -9,11 +10,16 @@
 5. make responsive
 6. location/region 
 7. users
-8.upgrade to the styleing 
+8. upgrade to the styleing 
 
 # Take idea from project 2, change mkt idea to coffee.
 
-#
+# Fincial App
+1. pull current news on mkt
+2. Fincial calculator
+3. graph representations 
+4. 
+
 
 ### Technology
 1. React || React Native
