@@ -70,6 +70,16 @@ Wire Frames
 
 
 
+#### Technologies
+1. REACT/REACT Native
+2. Bootstrap
+3. Google Places/Maps
+4. Rails
+5. Express
+
+
+
+
 
 
 
