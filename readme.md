@@ -12,4 +12,21 @@
     3. sodas
     4. liquors
     5. mixers
-5. 
+5. locations of near by Restuants and bars
+
+#### A third party API will only be used for the location services in this project.  I will create an API for the products including
+
+1. Name
+2. Descriptions
+3. Company 
+4. Style
+5. Food Pairings
+6. ABV (if product is alcoholic)
+
+#### User Stoies
+
+
+
+
+
+
