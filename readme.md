@@ -1,28 +1,15 @@
-# Idea 1 Informative website, based on news, tech, culture.
+# Beverage Index
+#### This project will bea readaption of my unit 2 project. The premise for the original was to look up informatioon regarding 
+#### a variety of beers. The project pull ed from a third party API, which contained all of the information related to the beverages. A full CRUD front end was comprised of a comment section, where users could leave comments about what they liked and didn't, in a forum setting. The view was greated using ejs, and deployes on Heroku for the final product.
 
-
-# idea 2 fix up project 2?
-### Add features from post mvp list
-1. google maps
-2. related beers by search
-3. more advanced search query.
-4. move view to React.
-5. make responsive
-6. location/region 
-7. users
-8. upgrade to the styleing 
-9. add other types of beverages (wine, liquor)
-
-# idea 3 Take idea from project 2, change mkt idea to coffee.
-
-# idea 4 Fincial App
-1. pull current news on mkt
-2. Fincial calculator
-3. graph representations 
-4. 
-
-
-### Technology
-1. React || React Native
-2. express
-3. ruby 
+#### In the readaptation, The front end will be created with REACT,  and now contain A variety of new additions including
+1. Food Pairings
+2. Advanced Search Function
+3. Comments Related to certain beverages and other products
+4. New products including
+    1. wine
+    2. waters
+    3. sodas
+    4. liquors
+    5. mixers
+5. 
