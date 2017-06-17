@@ -8,7 +8,10 @@ import axios from 'axios';
 class Beers extends Component {
   constructor(props) {
     super(props)
-    
+    this.state ={
+    	search: []
+    }
+    this.handleSubmit = this.handleSubmit.bind(this);
     
   }
 
@@ -17,8 +20,23 @@ class Beers extends Component {
     console.log('working')
   }
 
+  handleSubmit(e){
+    e.preventDefault(e)
+    // console.log(e)
+    let query = document.getElementById('put').value.toLowerCase();
+    console.log(query)
+    console.log('hi there')
+    /*let cap = query.charAt(0).toUpperCase()*/
+    this.setState({
+      search: query
+    })
+    console.log('------->',this.state);
+    window.location.assign('/beers/' + query)
+    console.log(query)
+  }
+
   getABeer(){
-  	let url = 'https://stormy-thicket-68972.herokuapp.com/beers';
+  	let url = 'https://stormy-thicket-68972.herokuapp.com/beers/';
     axios.get(url).then((res) => {
       console.log('whats new return-->', res.data.beers.name);
       let alldata = res.data
@@ -33,7 +51,7 @@ class Beers extends Component {
  	press(event){
 		let value = document.getElementById('put').value
 		console.log(value)
-		let url = 'https://stormy-thicket-68972.herokuapp.com/beers';
+		let url = 'https://stormy-thicket-68972.herokuapp.com/beers/';
     axios.get(url).then((res) => {
       console.log('whats new return-->', res.data.beers);
       let alldata = res.data.beers
@@ -46,12 +64,16 @@ class Beers extends Component {
       		style.innerHTML=alldata[i].style
       		let picture = document.createElement('div');
       		picture.setAttribute('id','pic');
+      		let food = document.createElement('h4');
+      		food.innerHTML=alldata[i].food;
       		let hold = document.getElementById('main')
       		let ul = document.getElementById('holder')
 
       		name.appendChild(des);
       		name.appendChild(style);
-      		name.appendChild(picture)
+      		name.appendChild(food);
+      		name.appendChild(picture);
+      		
       		hold.appendChild(name);
       }
 	})
@@ -68,7 +90,8 @@ class Beers extends Component {
 	          <FormControl id='put' type="text" placeholder="Search" />
 	        </FormGroup>
 
-	        <Button onClick={this.press} type="submit">Submit</Button>
+	        <Button onClick={(e)=> this.handleSubmit(e) } type="submit">Submit</Button>
+	        {/*<Button onClick={ this.press } type="submit">Submit</Button>*/}
 	      </Navbar.Form>
 	      </center>
 
