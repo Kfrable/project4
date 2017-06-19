@@ -7,9 +7,12 @@ import {
 function Contact(){
 	return(
 		<div className='Container'>
-			<Image  src="http://www.quoteambition.com/wp-content/uploads/2017/03/dogs.jpg" responsive />
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut, modi, magni pariatur aspernatur unde doloremque voluptatibus quis porro recusandae! Odio sequi, enim facere officiis recusandae asperiores itaque, libero quae.</p>
+			<Image id='me' src="./images/kyle.png" responsive />
+				<p>Hello, my name is Kyle Frable. I'm the developer behind this application. I've but several categories into this application, and tried to make it as easy to navigate as possible. I hope you enjoy. Should there be any problems the contact information is listed below. </p>
 			
+			    <h2>Email: kcfrable@gmail.com</h2>
+				<h2>github:<a href='https://github.com/Kfrable'>Link</a></h2>
+				<h2>LinkedIn: <a href='www.linkedin.com/in/kyle-frable'>Link</a></h2>
       
       
       

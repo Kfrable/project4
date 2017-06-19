@@ -1,10 +1,11 @@
 h1{
   text-align: center;
+  font-family: cursive;
 }
 
 p{
   text-align: center;
-  font-size: 300%;
+  font-size: 201%;
 
 background-color: #666666;
     -webkit-background-clip: text;
@@ -33,7 +34,7 @@ background-color: #666666;
     padding-bottom: 15px;
 }
 
-img{
+#me{
 
     border-radius: 100%;
     height: 190px;
@@ -77,6 +78,27 @@ div>.item>{
 }
 
 h2{
-  font-size: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+#put{
+  margin-left: 42%;
+}
+#name{
   text-align: center;
 }
+.head{
+  display:inline-flex;
+}
+
+.navbar{
+  font-family: fantasy;
+}
+#root{
+  background: lightgrey;
+}
+/*div>item>active{
+  left:613px;
+}*/
